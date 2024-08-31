@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="layouts">
+
+        <section class = "navbar">
+            <h3>LED</h3>
+        </section>
+        <div id="message">Waiting for messages...</div>
+        <section class="leds">
+            
+            <div class="led-item">
+                <img src="assets/led-off.png" class="led-image" />
+                <button class="led-submit" data-led="1">LED 1 Off</button>
+            </div>
+            <div class="led-item">
+                <img src="assets/led-off.png" class="led-image" />
+                <button class="led-submit" data-led="2">LED 2 Off</button>
+            </div>
+            <div class="led-item">
+                <img src="assets/led-off.png" class="led-image" />
+                <button class="led-submit" data-led="3">LED 3 Off</button>
+            </div>
+            <div class="led-item">
+                <img src="assets/led-off.png" class="led-image" />
+                <button class="led-submit" data-led="4">LED 4 Off</button>
+            </div>
+
+
+        </section>
+
+        <section class="bottombar">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-home"></i></a></li>
+                <li><a href="led.html"><i class="fa-solid fa-lightbulb"></i></li>
+                <li><a href="#"><i class="fa-solid fa-fan"></i></li>
+                <li><a href="#"><i class="fa-solid fa-chart-line"></i></li>
+
+
+
+            </ul>
+
+
+        </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/mqtt@4.2.1/dist/mqtt.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
